@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frm_xmlRegions", "Frm_xmlRegions.csproj", "{25A07297-D878-4F6E-B150-F63AC83C76D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriasDLL", "LibreriasDLL\LibreriasDLL.csproj", "{DF2A1679-B32E-4139-833B-8705ED5CD3BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25A07297-D878-4F6E-B150-F63AC83C76D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A07297-D878-4F6E-B150-F63AC83C76D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A07297-D878-4F6E-B150-F63AC83C76D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A07297-D878-4F6E-B150-F63AC83C76D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2A1679-B32E-4139-833B-8705ED5CD3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2A1679-B32E-4139-833B-8705ED5CD3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2A1679-B32E-4139-833B-8705ED5CD3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2A1679-B32E-4139-833B-8705ED5CD3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E237D49-7854-4784-AB86-41DEA2208743}
+	EndGlobalSection
+EndGlobal

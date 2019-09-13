@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<region>
+   <name>Wild Space</name>
+   <descriptionRegion>Wild Space was the frontier of galactic society, separating the known parts of the galaxy from the Unknown Regions. It was not a formal label, but was applied to the unsettled galactic fringe and other parts of the galaxy with negligible colonization or development.  Wild Space differed from the Unknown Regions in that some of Wild Space had been explored, though not extensively, and the findings recorded in official logs. The worlds of Wild Space largely ignored the central government, and were generally peaceful, but many acted as criminal hideaways</descriptionRegion>
+   <planets>
+      <planet>
+         <name>Teth</name>
+         <sector>Baxel</sector>
+         <filiation>Neutral</filiation>
+         <long>W99868PKJ</long>
+         <lat>X96541MBV</lat>
+         <parsecs>64998</parsecs>
+         <natives>Hutt</natives>
+         <planetImage>Teth.jpg</planetImage>
+         <region>Wild Space</region>
+      </planet>
+   </planets>
+</region>
+

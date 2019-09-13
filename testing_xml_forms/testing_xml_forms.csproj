@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{953E4367-9BED-4EB3-A799-F8F7FF26381C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>testing_xml_forms</RootNamespace>
+    <AssemblyName>testing_xml_forms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>millennium-falcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SdSData">
+      <HintPath>..\..\SdSData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="equipo\adri_rojo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equipo\adri_rojo.Designer.cs">
+      <DependentUpon>adri_rojo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="equipo\alberto_muñoz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equipo\alberto_muñoz.Designer.cs">
+      <DependentUpon>alberto_muñoz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="equipo\edu_martinez.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equipo\edu_martinez.Designer.cs">
+      <DependentUpon>edu_martinez.cs</DependentUpon>
+    </Compile>
+    <Compile Include="equipo\marc_canaleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equipo\marc_canaleta.Designer.cs">
+      <DependentUpon>marc_canaleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIPrincipal.Designer.cs">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="equipo\adri_rojo.resx">
+      <DependentUpon>adri_rojo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equipo\alberto_muñoz.resx">
+      <DependentUpon>alberto_muñoz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equipo\edu_martinez.resx">
+      <DependentUpon>edu_martinez.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equipo\marc_canaleta.resx">
+      <DependentUpon>marc_canaleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIPrincipal.resx">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_insta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marc_canaleta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="millennium-falcon.ico" />
+    <Content Include="Resources\planets.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\STAR WARS _ HIMNO ESPAÑA-128.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\picasion.com_61ba447853eafbca75948235fa04714c.gif" />
+    <None Include="bin\Debug\fotos_project\adri_rojo.jpg" />
+    <None Include="bin\Debug\fotos_project\alberto_muñoz.jpg" />
+    <None Include="bin\Debug\fotos_project\edu_martinez.jpg" />
+    <None Include="bin\Debug\fotos_project\fons_app.png" />
+    <None Include="bin\Debug\fotos_project\play.jpg" />
+    <None Include="bin\Debug\fotos_project\start.png" />
+    <None Include="bin\Debug\fotos_project\background_menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Frm_crystal\Frm_crystal.csproj">
+      <Project>{b06caa15-2aeb-4cf8-804f-a1497af14915}</Project>
+      <Name>Frm_crystal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frm_dadesPlanetes\Frm_dadesPlanetes.csproj">
+      <Project>{c6f9cb4f-fb0f-4b85-8d69-20f95ea6f6bb}</Project>
+      <Name>Frm_dadesPlanetes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frm_ventas\Frm_ventas.csproj">
+      <Project>{e6552f7c-26dc-420a-b4ed-7d2e48b5d5aa}</Project>
+      <Name>Frm_ventas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frm_xmlRegions\Frm_xmlRegions.csproj">
+      <Project>{25a07297-d878-4f6e-b150-f63ac83c76d6}</Project>
+      <Name>Frm_xmlRegions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Odisea en el espacio\Odisea en el espacio.csproj">
+      <Project>{2ffe768a-ef72-422d-80a8-05bb8a9e7b64}</Project>
+      <Name>Odisea en el espacio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

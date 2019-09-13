@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<region>
+   <name>Unknown Regions</name>
+   <descriptionRegion>The term "Unknown Regions" referred to those areas that had not been directly surveyed by Republic or Imperial scouts. It was most commonly applied to the less-known parts of the galaxy's western disk, a quadrant stretching roughly between Bakura and the Imperial Remnant.</descriptionRegion>
+   <planets>
+      <planet>
+         <name>Rakata Prime</name>
+         <sector>Rakata</sector>
+         <filiation>Unknown</filiation>
+         <long>X99872MFK</long>
+         <lat>G99561RTQ</lat>
+         <parsecs>97444</parsecs>
+         <natives>Rakata</natives>
+         <planetImage>RakataPrime.png</planetImage>
+         <region>Unknown Regions</region>
+      </planet>
+   </planets>
+</region>
+

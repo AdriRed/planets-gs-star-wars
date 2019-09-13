@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<region>
+   <name>Core Worlds</name>
+   <descriptionRegion>The Core Worlds was an ancient region bordering the outlying areas of the Deep Core, and included some of the most prestigious, well-developed, well-known, and heavily populated planets in the galaxy. The Galactic Republic and subsequently all galaxywide governments were born in the Core Worlds and spread out over the galaxy. During both the time of the Republic and Empire, Coruscant, a major core world, was the Galactic Capital. The region of the Core Worlds known as the Tetrahedron became the cradle of the early Republic, and simultaneously scouts discovered the Perlemian Trade Route and the Corellian Run emanating from Coruscant, creating a region known as the Arrowhead containing the ancient worlds of Alsakan, Anaxes, Basilisk and Ixtlar.</descriptionRegion>
+   <planets>
+      <planet>
+         <name>Coruscant</name>
+         <sector>Corusca</sector>
+         <filiation>First Order</filiation>
+         <long>K67215FBZ</long>
+         <lat>88657NMA</lat>
+         <parsecs>94746</parsecs>
+         <natives>Humans</natives>
+         <planetImage>Coruscant.png</planetImage>
+         <region>Core Worlds</region>
+      </planet>
+      <planet>
+         <name>Kuat</name>
+         <sector>Kuat</sector>
+         <filiation>Republican</filiation>
+         <long>G76319CCL</long>
+         <lat>T53477PWD</lat>
+         <parsecs>64534</parsecs>
+         <natives>Kuati</natives>
+         <planetImage>Kuat.png</planetImage>
+         <region>Core Worlds</region>
+      </planet>
+      <planet>
+         <name>Corellia</name>
+         <sector>Corellia</sector>
+         <filiation>First Order</filiation>
+         <long>M89486HJJ</long>
+         <lat>K54536DFC</lat>
+         <parsecs>43526</parsecs>
+         <natives>Humans</natives>
+         <planetImage>corellia.jpg</planetImage>
+         <region>Core Worlds</region>
+      </planet>
+   </planets>
+</region>
+
