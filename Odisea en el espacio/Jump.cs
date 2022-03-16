@@ -43,8 +43,12 @@ namespace Odisea_en_el_espacio
 
         private void Jump_Load(object sender, EventArgs e)
         {
-            Image myimage = new Bitmap(Application.StartupPath + "\\Imagenes\\jump1.png");
-            this.BackgroundImage = myimage;
+            try
+            {
+
+                Image myimage = new Bitmap(Application.StartupPath + "\\Imagenes\\jump1.png");
+                this.BackgroundImage = myimage;
+            } catch (Exception ){ }
 
             foreach (KeyValuePair<Planet, double> reg in Loader.GetClosestPlanets(nave.position, nave.DisponiblePlanets, nave.Planets))
             {

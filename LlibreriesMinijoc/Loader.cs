@@ -191,7 +191,12 @@ namespace LlibreriaMinijoc
 
             for (int i = 0; i < quant; i++)
             {
-                closest.Add(AllOrderedClosestPlanets[i].Key, AllOrderedClosestPlanets[i].Value);
+                try
+                {
+
+                    closest.Add(AllOrderedClosestPlanets[i].Key, AllOrderedClosestPlanets[i].Value);
+                }
+                catch (Exception) { }
             }
 
             return closest;

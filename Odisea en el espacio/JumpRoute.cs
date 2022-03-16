@@ -41,8 +41,13 @@ namespace Odisea_en_el_espacio
 
         private void JumpRoute_Load(object sender, EventArgs e)
         {
-            Image myimage = new Bitmap(Application.StartupPath + "\\Imagenes\\jump2.png");
-            this.BackgroundImage = myimage;
+            try
+            {
+                Image myimage = new Bitmap(Application.StartupPath + "\\Imagenes\\jump2.png");
+                this.BackgroundImage = myimage;
+            }
+            catch (Exception) { }
+
 
             foreach (Route route in nave.actualPlanet.Routes)
             {
